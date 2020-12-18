@@ -13,7 +13,8 @@ programa
 	"Kélven Cleiton de Araújo Brandão","Laís Lima Santos","Lucas Anseloni Barros","Lucas Gonçalves da Silva","Luis felipe da silva",
 	"Luiz Felipe da Silva Magalhães","Marcos Eduardo Gomes Gonçalves","Micaely da Silva Lima","Rafaela Oliveira Silva","Tiago dos Santos Martins",
 	"Verônica Navarro Almena", "Vinicius de Alvez Miranda"}
-		caracter generos[] = {'M','M','F','F','M','M','M','M','M','M','M','M','M','F','F','M','M','M','M','M','M','F','M','F','F','M','F','M','F','M','M','M','M','M','F','F','M','F','M'}
+		caracter generos[] = {'M','M','F','F','M','M','M','M','M','M','M','M','M','F','F','M','M','M','M','M','M','F','M',
+		'F','F','M','F','M','F','M','M','M','M','M','F','F','M','F','M'}
 		cadeia matriculas[39]
 		cadeia aluno, Sim, Nao
 		inteiro nota;
@@ -21,8 +22,8 @@ programa
 		
 		para (inteiro x=0; x< 39; x++)
 		{
-			matriculas[x] = "G2"+(x+1)
-			se(x < 10) {
+			matriculas[x] = "G2-0"+(x+1)
+			se(x >= 10) {
 				matriculas[x] = "G2-0" + (x+1))
 				escreva(matriculas[x])	
 			}
@@ -69,7 +70,7 @@ programa
 						escreva("\nAluna aprovada")
 					}
 				}
-				escreva("Nota: ", nota)
+				escreva("\nNota: ", nota)
 				
 			}
 		}
@@ -83,7 +84,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2571; 
+ * @POSICAO-CURSOR = 1349; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

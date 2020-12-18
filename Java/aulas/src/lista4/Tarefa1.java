@@ -24,10 +24,6 @@ public class Tarefa1 {
 			}
 		}
 		System.out.println("Maior numero: " + maiorNumero);
-		
-		
-		
-		
 
 	}
 
